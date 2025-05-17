@@ -1,7 +1,8 @@
 body{
 
     font-family: sans-serif;
-    background-color: rgb(0, 0, 0);
+    background: url('../img/ton.webp') no-repeat center center fixed;
+    background-size: cover;
     margin: 0;
     color: white;
 }
@@ -13,7 +14,7 @@ header{
     display: flex;
     flex-wrap: wrap;
     height: 70px;
-    background-color: rgb(76, 2, 76);
+    
     justify-content: space-between;
     align-items: center;
     padding: 25px;
@@ -61,4 +62,5 @@ nav a{
     width: 10%;
     margin: 20px auto;
     flex-direction: row;
+    color: rgb(34, 0, 255);
 }
