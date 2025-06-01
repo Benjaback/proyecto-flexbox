@@ -1,10 +1,10 @@
-
 body{
-
     font-family: sans-serif;
-
     background-size: cover;
     margin: 0;
+    background-position: center;   /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    background-attachment: fixed;  /* Opcional: efecto parallax */
     
 }
 
@@ -18,7 +18,7 @@ header, .navbar, .container-fluid .navbar-nav .nav-link, .navbar-brand, .dropdow
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link:hover {
-    color: #ff0000 !important; /* Opcional: color dorado al pasar el mouse */
+    color: #0400ff !important; /* Opcional: color dorado al pasar el mouse */
 }
 .dropdown-menu {
     background: rgba(30,30,30,0.95);
@@ -40,17 +40,6 @@ header, .navbar, .container-fluid .navbar-nav .nav-link, .navbar-brand, .dropdow
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
-}
-
-/* } carrusel */
-.carousel-container {
-    max-width: 1600px; /* Cambia el tamaño a tu gusto */
-    margin: 0px ; /* Centra el carrusel y agrega margen arriba */
-}
-
-.carousel-inner img {
-    height: 300px; /* Ajusta la altura si lo deseas */
-    object-fit: cover;
 }
 
 

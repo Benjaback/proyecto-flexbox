@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/fondoI2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+/* login*/
+.contacto{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 500px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 5px 30px #000 ;
+}
+.logo{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    top: calc(-80px / 2);
+    left: calc(50% - 50px);
+    border: 10px solid #fff;
+
+
+}
+.contacto h2{
+    margin: 0;
+    padding: 0 0 20px;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.contacto a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.contacto p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+}
+.contacto input{
+    border: none;
+    border-bottom-color: currentColor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+    width: 90%;
+    border-bottom: 2px solid #fff;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #fff;
+}
+.contacto input[type="text"],
+.contacto input[type="password"]{
+
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+}
+
+.btn2{
+    padding: 10px;
+    width: 150%;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    border-style: none;
+    color: #fff;
+    font-weight: 600;
+    margin: 10% 0;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
+.rem{
+    text-align: center;
+    color: rgb(199,197,197) !important;
+    font-size: 16px;
+}
+input[type="checkbox"]{
+    color: #fff !important;
+    width: 5%;
+    margin-top: -40px;
+}
+input::placeholder,
+textarea::placeholder {
+    color: #fff !important;
+    opacity: 1; /* Para que no sea transparente */
+}
+.olvidar {
+    display: block;
+    text-align: right;
+    margin-bottom: 8px;
+    margin-top: -10px;
+    font-size: 13px;
+    padding-right: 40px;
+}
+.registrate {
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-top: -10px;
+    color: rgb(255, 255, 255);
+}
